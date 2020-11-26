@@ -22,7 +22,7 @@ body {
   font-size: 12px;
   font-family: "Kumbh Sans", sans-serif;
   background-image: linear-gradient(var(--soft-violet), var(--soft-blue));
-  height: 125vh;
+  height: 100vh;
 }
 
 .faq-container {
