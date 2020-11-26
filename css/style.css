@@ -1,0 +1,119 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* primary */
+  --dark-blue: hsl(238, 29%, 16%);
+  --soft-red: hsl(14, 88%, 65%);
+  /* gradient */
+  --soft-violet: hsl(273, 75%, 66%);
+  --soft-blue: hsl(240, 73%, 65%);
+  /* Neutral */
+  --very-dark-grayish-blue: hsl(237, 12%, 33%);
+  --dark-grayish-blue: hsl(240, 6%, 50%);
+  --light-grayish: hsl(240, 5%, 91%);
+}
+body {
+  font-size: 12px;
+  font-family: "Kumbh Sans", sans-serif;
+  background-image: linear-gradient(var(--soft-violet), var(--soft-blue));
+  height: 100vh;
+}
+
+.faq-container {
+  background-color: #fff;
+  border-radius: 12px;
+  width: 80%;
+  margin: 40px auto;
+  display: flex;
+  align-items: stretch;
+  height: 510px;
+}
+
+.imgs-wrapper,
+.questions-wrapper {
+  flex: 1;
+}
+.imgs-wrapper {
+  background: url(../images/illustration-woman-online-desktop.svg) no-repeat -76px
+      80px,
+    url(../images/bg-pattern-desktop.svg) no-repeat -590px -280px;
+  position: relative;
+}
+.box-img {
+  position: absolute;
+  left: -93px;
+  top: 220px;
+}
+
+.questions-wrapper {
+  padding: 62px 90px 0px 0px;
+}
+
+.questions-wrapper h1 {
+  margin: 0px 0px 10px 0px;
+  font-weight: 700;
+  font-size: 3em;
+}
+
+.question-wrapper {
+  border-bottom: 1px solid var(--light-grayish);
+}
+.question-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.question-text:hover {
+  cursor: pointer;
+}
+
+.question-text h2 {
+  padding: 15px 0px;
+  font-weight: 400;
+  font-size: 1.4em;
+  color: var(--very-dark-grayish-blue);
+}
+.question-text h2:hover {
+  color: var(--soft-red);
+}
+.collapse-btn {
+  background-color: inherit;
+  border: none;
+  transform-origin: 50% 50%;
+  transition: 300ms ease-in-out;
+}
+.collapse-btn:hover {
+  cursor: pointer;
+}
+
+.collapse-btn:focus {
+  outline: none;
+}
+
+.question-wrapper p.answer-text {
+  padding: 0px 0px 20px 0px;
+  font-size: 1.2em;
+  font-weight: 400;
+  color: var(--dark-grayish-blue);
+  display: none;
+}
+
+/* active state classes */
+
+.active .question-text h2 {
+  font-weight: 700;
+  color: var(--dark-blue);
+}
+
+.active .collapse-btn {
+  transform: rotate(180deg);
+}
+.active p.answer-text {
+  display: block;
+}

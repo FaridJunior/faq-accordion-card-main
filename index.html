@@ -3,9 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link rel="stylesheet" href="./css/style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap" rel="stylesheet">
   <title>Frontend Mentor | FAQ Accordion Card</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -15,7 +17,84 @@
   </style>
 </head>
 <body>
-  How many team members can I invite?
+  <section class="faq-container">
+    <div class="imgs-wrapper">
+      <img class="box-img" src="./images/illustration-box-desktop.svg" alt="">
+    </div>
+    <div class="questions-wrapper">
+      <h1>FAQ</h1>
+      <div class="questions-area">
+        <div class="question-wrapper">
+          <div class="question-text">
+            <h2>
+              How many team members can I invite?
+            </h2>
+            <button class="collapse-btn"><img src="./images/icon-arrow-down.svg" alt=""></button>
+          </div>
+          <p class="answer-text closed">
+            You can invite up to 2 additional users on the Free plan. There is no limit on 
+             team members for the Premium plan.
+            <p/>
+        </div>
+        <div class="question-wrapper active">
+          <div class="question-text">
+            <h2>
+              What is the maximum file upload size?
+
+            </h2>
+            <button class="collapse-btn"><img src="./images/icon-arrow-down.svg" alt=""></button>
+          </div>
+          <p class="answer-text ">
+            No more than 2GB. All files in your account must fit your allotted storage space.
+            <p/>
+        </div>
+        
+        <div class="question-wrapper">
+          <div class="question-text">
+            <h2>
+               How do I reset my password?
+            </h2>
+            <button class="collapse-btn"><img src="./images/icon-arrow-down.svg" alt=""></button>
+          </div>
+          <p class="answer-text closed">
+            Click “Forgot password” from the login page or “Change password” from your profile page.
+            A reset link will be emailed to you.
+          <p/>
+        </div>
+        <div class="question-wrapper">
+          <div class="question-text">
+            <h2>
+              Can I cancel my subscription?
+            </h2>
+            <button class="collapse-btn"><img src="./images/icon-arrow-down.svg" alt=""></button>
+          </div>
+          <p class="answer-text closed">
+            Yes! Send us a message and we’ll process your request no questions asked.
+          <p/>
+        </div>
+
+        <div class="question-wrapper">
+          <div class="question-text">
+            <h2>
+              Do you provide additional support?
+            </h2>
+            <button class="collapse-btn"><img src="./images/icon-arrow-down.svg" alt=""></button>
+          </div>
+          <p class="answer-text closed">
+            Chat and email support is available 24/7. Phone lines are open during normal business hours.
+          <p/>
+        </div>
+
+      </div>
+    </div>
+
+
+  </section>
+
+
+
+  <!--
+ How many team members can I invite? 
   You can invite up to 2 additional users on the Free plan. There is no limit on 
   team members for the Premium plan.
 
@@ -31,10 +110,12 @@
 
   Do you provide additional support?
   Chat and email support is available 24/7. Phone lines are open during normal business hours.
+ -->
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://twitter.com/Mfarid_se">Mohamed Farid</a>.
   </div>
+  <script src="./js/script.js"></script>
 </body>
 </html>
