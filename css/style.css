@@ -121,10 +121,10 @@ body {
   .imgs-wrapper {
     background: url(../images/bg-pattern-mobile.svg) no-repeat 35px 0px;
     position: relative;
+    min-height: 120px;
   }
   .faq-container {
     width: 320px;
-    height: 560px;
     flex-direction: column;
   }
 
