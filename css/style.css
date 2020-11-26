@@ -32,7 +32,7 @@ body {
   margin: 120px auto;
   display: flex;
   align-items: stretch;
-  height: 510px;
+  min-height: 510px;
 }
 
 .imgs-wrapper,
