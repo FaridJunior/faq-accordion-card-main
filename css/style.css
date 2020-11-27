@@ -73,7 +73,7 @@ body {
 .question-text {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: baseline;
 }
 .question-text:hover {
   cursor: pointer;
