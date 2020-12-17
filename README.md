@@ -1,17 +1,12 @@
-# Frontend Mentor - FAQ Accordion Card
+# Frontend Mentor - FAQ Accordion Card [preview](https://faq-accordion-card-main-eight.vercel.app/)
 
-live [here](https://faq-accordion-card-main-eight.vercel.app/)
+A challenge from Frontend Mentor.
 
-![Design preview for the FAQ Accordion Card coding challenge](./design/desktop-preview.jpg)
+Coded by me! :grin:
+
 
 desktop 👇
 ![final desktop version](./screenshots/desktop.png)
 
 mobile 👇
 ![final mobile version](./screenshots/mobile.png)
-
-## Welcome! 👋
-
-Thanks for checking out this front-end coding challenge.
-
-[Frontend Mentor](https://www.frontendmentor.io) challenges allow you to improve your skills in a real-life workflow.
